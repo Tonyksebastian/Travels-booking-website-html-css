@@ -1,0 +1,118 @@
+body {
+    background: url("439750.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.header{
+    text-align: center;
+    border-radius: 5px;
+    border: width 30px;
+    position: relative;
+    background-color: rgba(7, 0, 0, 0.685);
+    color: rgb(255, 255, 255);
+    font-size:19px;
+    font-family: cursive;
+}
+
+.box {
+    width: 340px;
+    margin-left: 8ex;
+    padding: 30px;
+    height: 380px;
+    border-radius: 15px;
+    border-style: outset;
+    border-color: rgba(7, 0, 0, 0.63);
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    background:rgba(7, 0, 0, 0.63);
+    text-align: left;
+}
+
+.reg {
+    text-align: center;
+    color: rgb(224, 127, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: 30px;
+    position: relative;
+}
+.h4{
+    color: white;
+    line-height: 3px;
+    margin-top: -5px;
+}
+
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    position: center;
+}
+
+.email{
+    margin-top: 1px;
+    width: 320px;
+    height: 30px;
+    margin-left: 7px;
+    border-radius: 8px;
+    border-color: rgb(0, 0, 0);
+}
+
+
+.username {
+    margin-top: 3px;
+    width: 320px;
+    height: 30px;
+    margin-left: 7px;
+    border-radius: 8px;
+    border-color: rgb(0, 0, 0);
+}
+
+.password {
+    margin-top: 3px;
+    width: 320px;
+    height: 30px;
+    margin-left: 7px;
+    border-radius: 8px;
+    border-color: rgb(0, 0, 0);
+}
+
+.btnSubmint {
+    margin-left: 25%;
+    margin-top: 5%;
+    height: 12%;
+    width: 50%;
+    border: 2px solid rgba(238, 1, 1, 0.4);;
+    border-radius: 8px;
+    background-color: rgb(0, 165, 241);
+    color: rgb(2, 2, 2);
+    padding: 10px 28px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+.btnSubmint:hover {
+    background-color: rgb(241, 117, 117);
+    transform: translateY(4px);
+}
+.tacbox {
+  position: relative;
+  display:block;
+  bottom: 2px;
+  padding: 2px;
+  margin: 2px;
+  color: aliceblue;
+  max-width:max-content
+}
+input {
+  height: 2em;
+  width: 1em;
+  vertical-align: middle;
+}
+
+
+

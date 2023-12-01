@@ -1,0 +1,142 @@
+*{
+    text-align:justify;
+}
+.reg{
+    margin-left: 38%;
+    margin-top: 5%;
+    color: brown;
+}
+h4{
+    color: coral;
+    margin-top: 20px;
+}
+.box{
+    background-position:center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.container{
+    margin-left: 5%;
+}
+body {
+    background: url("thumb-1920-980235.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.gendersel{
+        top: 100px;
+        margin-left: 5%;
+        color: rgb(255, 255, 255);
+      }
+.select{
+        margin-left: 5%;
+        color: rgb(255, 255, 255);
+    }
+.txt-Boxes{
+        margin-left: 5%;
+    }
+.username {
+        margin-top: 1px;
+        width: 320px;
+        height: 30px;
+        margin-left: 7px;
+        border-radius: 8px;
+        border-color: rgb(0, 0, 0);
+    }
+.label{
+        color:aliceblue;
+    }
+    
+.password {
+        margin-top: 3px;
+        width: 320px;
+        height: 30px;
+        margin-left: 7px;
+        border-radius: 8px;
+        border-color: rgb(0, 0, 0);
+    }
+.h4{
+        color: white;
+        line-height: 3px;
+        margin-top: -5px;
+    }
+.submit{
+            color: aqua;
+            position: relative;
+            margin-left: 25%;
+
+    }
+.number{
+        width: 43%;
+        border-radius: 8px;
+        height: 30px;
+        border-color: rgb(0, 0, 0);
+    }
+.txtBoxes{
+        width: 43%;
+        height: 30px;
+        border-color: rgb(0, 0, 0);
+
+    }
+.box {
+        width: 50em;
+        margin-left: 8ex;
+        padding: 30px;
+        height: 40em;
+        box-shadow: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), alpha);
+        border-radius: 15px;
+        border-style: outset;
+        border-color: rgba(7, 0, 0, 0.685);
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        background:rgba(7, 0, 0, 0.685);
+        text-align: left;
+    }
+.Submint{
+
+     margin-left: 5%;
+     width: 10%;
+     border-radius: 10px;
+     height: 5%;
+     font-size: medium;
+     border-color: black;
+     cursor: pointer;
+     font-family:'Times New Roman', Times, serif;
+     text-align: center;
+     background-color: deepskyblue;
+    }
+.Submint:hover {
+        background-color: rgb(255, 255, 255);
+        transform: translateY(4px);
+    }
+.reset{
+        margin-left: 60%;
+        position: relative;
+        bottom: 32px;
+        font-size: medium;
+        border-color: black;
+        font-family:'Times New Roman', Times, serif;
+        width: 10%;
+        height: 5%;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10px;
+        background-color: deepskyblue;
+    }
+.reset:hover {
+        background-color: rgb(255, 255, 255);
+        transform: translateY(4px);
+    }
+    
+.reg {
+        text-align: center;
+        color: rgb(224, 127, 0);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        bottom: 45px;
+        position: relative;
+    }

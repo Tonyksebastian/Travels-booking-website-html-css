@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(254381.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: auto;
+    overflow: hidden;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.logo-align {
+    position: relative;
+    left: -5%;
+}
+
+.navbar {
+    width: 90%;
+    position: relative;
+    top: 2%;
+    left: 13%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    position: relative;
+    right: 30%;
+    margin-top: 3%;
+}
+
+.test {
+    align-items: center;
+    position: relative;
+    padding-left: 55%;
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.offer{
+    margin-left: 79%;
+}
+.Submit{
+    width: 10%;
+    height: 5%;
+    border-radius: 18px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    font-weight: bold;
+    font-style: oblique;
+    border-color: black;
+    border-width: medium;
+    margin-left: 80%;
+    position: relative;
+    cursor: pointer;
+    background-color: rgb(132, 157, 189);
+}
+.Submit:hover {
+    background-color: rgb(255, 255, 255);
+    transform: translateY(4px);
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+}
+.regist{
+
+    position: relative;
+    margin-left: 200px;
+}
+
+.column {
+
+	float: left;
+	width: 25%;
+	padding: 5px;
+    margin-top: 107px;
+    margin-left: 270px;
+}
+
+.navbar ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+.img{
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+
+.h3 {
+    padding: 100px;
+    margin-bottom: 50px;
+    align-items: center;
+    color:rgb(238, 212, 65);
+}
+
+.list {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: black;
+    top: 30%;
+    left: 20%;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+}
